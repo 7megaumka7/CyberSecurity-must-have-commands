@@ -1,0 +1,15 @@
+A- aria2c (for downloading files, -x 5 -for better perfomance)
+C- Ctrl + D - exit from current operation, Ctrl+R -  search for command history , Ctrl+L-  clear shell
+D- $' - for output the binary values like /x41/x42/x43 and /n (echo $'/x41/x/42/x43/')
+E-  echo - for output values (-n - no newline, e- for interpretation symbols)
+F- find - for find files and directories (-mmin -60 - output operations made in a last 60 mins)
+G-  grep - for search strings in a given file( fgrep - without regexps - special symbols searcher)  
+H- htop (looking table of processes in convenient design)
+J- jobs (show processes)
+K- kill (-STOP for freeze, -CONT for continue)
+L- lbzip2 (upgraded compressing of bzip2)
+N- ncdu (show current directory in a tree-type)
+O -od (show file in HEX style (-tx1z)
+P - pv (helps sto see the progress of sending/downloading data)
+Q -qemu-user (enable other architectures in a current linux)
+W- wiresharck (helps to sniff traffic from server "ssh web-site_name 'tcpdump  -U -i eth0 not tcp port 22' | wiresharck -k -i -'"
